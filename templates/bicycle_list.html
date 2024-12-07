@@ -1,0 +1,19 @@
+h{% extends "base_generic.html" %}
+{% block content %}
+  <h2>Bicycle List</h2>
+  <div class="row">
+    {% for bicycle in bicycles %}
+      <div class="col-md-4">
+        <div class="card">
+          <img src="{{ bicycle.image.url }}" class="card-img-top" alt="Bicycle Image">
+          <div class="card-body">
+            <h5 class="card-title">{{ bicycle.color }} Bicycle</h5>
+            <p class="card-text">Serial No: {{ bicycle.serial_no }}</p>
+            <p class="card-text">Payment: {{ bicycle.payment_per_duration }} per duration</p>
+            <p class="card-text">Location: {{ bicycle.location }}</p>
+          </div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+{% endblock %}

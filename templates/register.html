@@ -1,0 +1,45 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+  <style>
+    .register-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color:lightgray; /* Light cyan background */
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .register-container h2 {
+      text-align: center;
+      color: darkorchid; /* Bootstrap primary blue */
+      font-family: 'Verdana', sans-serif;
+    }
+    .register-container form {
+      font-family: 'Verdana', sans-serif;
+      color: #333; /* Darker color for the form text */
+    }
+    .register-container form .btn-register {
+      background-color:indigo;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .register-container form .btn-register:hover {
+      background-color: #0056b3;
+    }
+  </style>
+
+  <div class="register-container">
+    <h2>Register</h2>
+    <form method="post">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="btn-register">Register</button>
+    </form>
+  </div>
+{% endblock %}

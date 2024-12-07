@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4a11e314-dc48-405b-948d-9139678663e0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/bike.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bike/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/forms.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/url.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main_app/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/manage.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pexels-davidmcbee-255934(1).jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pexels-davidmcbee-255934.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pexels-taryn-elliott-4198566.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pexels-timea-kadar-860778-2130611.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/static/images/pexels-tony-367405-990113.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/base_generic.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/bicycle_list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/register.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/templates/upload_bicycle.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Python Script" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2piJ8vwhxLxLutU7DF3nuBoxhdm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "Django Server.bike.executor": "Run",
+    "RunOnceActivity.OpenDjangoStructureViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.pycharm.django.structure.promotion.once.per.project": "true",
+    "django.template.preview.state": "SHOW_EDITOR_AND_PREVIEW",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/830 g5 I7 Touch/PycharmProjects/bike",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\830 g5 I7 Touch\PycharmProjects\bike\static" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="bike" type="Python.DjangoServer" factoryName="Django server">
+      <module name="bike" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="bike.settings" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <option name="port" value="8000" />
+      <option name="host" value="localhost" />
+      <option name="additionalOptions" value="" />
+      <option name="browserUrl" value="" />
+      <option name="runTestServer" value="false" />
+      <option name="runNoReload" value="false" />
+      <option name="useCustomRunCommand" value="false" />
+      <option name="customRunCommand" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-5c90d61e3bab-JavaScript-PY-242.23339.19" />
+        <option value="bundled-python-sdk-0029f7779945-399fe30bd8c1-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4a11e314-dc48-405b-948d-9139678663e0" name="Changes" comment="" />
+      <created>1733242806759</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733242806759</updated>
+      <workItem from="1733242829110" duration="4166000" />
+      <workItem from="1733298609876" duration="1246000" />
+      <workItem from="1733336645393" duration="1451000" />
+      <workItem from="1733463025092" duration="9000" />
+      <workItem from="1733498004854" duration="6000" />
+      <workItem from="1733594393741" duration="1106000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/main_app/models.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

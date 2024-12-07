@@ -1,0 +1,45 @@
+{% extends "base_generic.html" %}
+{% load static %}
+
+{% block content %}
+  <style>
+    .upload-container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+    .upload-container h2 {
+      text-align: center;
+      color: #4CAF50; /* Green color for the header */
+      font-family: 'Arial', sans-serif;
+    }
+    .upload-container form {
+      font-family: 'Arial', sans-serif;
+      color: #333; /* Dark color for the form text */
+    }
+    .upload-container form .btn-upload {
+      background-color: #4CAF50;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+    .upload-container form .btn-upload:hover {
+      background-color: #45a049;
+    }
+  </style>
+
+  <div class="upload-container">
+    <h2>Upload Bicycle</h2>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+      {{ form.as_p }}
+      <button type="submit" class="btn-upload">Upload</button>
+    </form>
+  </div>
+{% endblock %}
